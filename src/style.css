@@ -1,0 +1,35 @@
+:root {
+  color: #181d1f;
+  background: #f4f6f8;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 48px 24px;
+}
+
+.card {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #d9e0e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+}
+
+.card--loading .table {
+  min-height: 280px;
+}
